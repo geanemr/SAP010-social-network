@@ -5,7 +5,7 @@
 
 <div align="center">
 
-   Acesse o projeto através do [Gh-pages](https://geanemr.github.io/SAP010-social-network/#login/) e do [Firebase Hosting](https://social-network-lab-3ce72.firebaseapp.com/)
+   Acesse o projeto através do [Gh-pages](https://geanemr.github.io/SAP010-social-network/#login/) e do [Firebase Hosting](https://explorai.web.app/#timeline)
   <br>
   Status do projeto: Concluido ✔ <br>
   Ferramentas e tecnologias utilizadas: <br>

@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "explorai",
     "public": "dist",
     "ignore": [],
     "rewrites": [
