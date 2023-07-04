@@ -5,9 +5,9 @@
 
 <div align="center">
 
-   Acesse o projeto através do [Gh-pages](https://rbcribeiro.github.io/SAP010-social-network/) e do [Firebase Hosting](https://social-network-lab-3ce72.firebaseapp.com/)
+   Acesse o projeto através do [Gh-pages](https://geanemr.github.io/SAP010-social-network/#login/) e do [Firebase Hosting](https://social-network-lab-3ce72.firebaseapp.com/)
   <br>
-  Status do projeto: Em andamento 🚧 <br>
+  Status do projeto: Concluido ✔ <br>
   Ferramentas e tecnologias utilizadas: <br>
 
   <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">
