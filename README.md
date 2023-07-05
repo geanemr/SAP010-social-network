@@ -7,7 +7,7 @@
 
    Acesse o projeto através do [Gh-pages](https://geanemr.github.io/SAP010-social-network/#login/) e do [Firebase Hosting](https://explorai.web.app/#timeline)
   <br>
-  Status do projeto: Concluido ✔ <br>
+  Status do projeto: Concluído ✔ <br>
   Ferramentas e tecnologias utilizadas: <br>
 
   <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">
