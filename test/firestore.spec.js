@@ -64,7 +64,7 @@ describe('updatePost', () => {
 });
 
 describe('hasUserLikedPost', () => {
-  it('deve retornar true se o usuário tiver curtido o post', async () => {
+  it('should return true if the user has liked the post', async () => {
     const mockPostData = {
       whoLiked: ['uid9876'],
     };
@@ -81,7 +81,7 @@ describe('hasUserLikedPost', () => {
     expect(resultado).toBe(true);
   });
 
-  it('deve retornar false se o usuário não tiver curtido o post', async () => {
+  it('should return false if the user has not liked the post', async () => {
     const mockPostData = {
       whoLiked: ['userId'],
     };
@@ -98,7 +98,7 @@ describe('hasUserLikedPost', () => {
     expect(resultado).toBe(false);
   });
 
-  it('deve retornar false se o post não existir', async () => {
+  it('should return false if the post does not exist', async () => {
     const mockGetDoc = jest.fn(() => ({
       exists: false,
     }));
@@ -136,16 +136,16 @@ describe('likePost', () => {
   });
   it('should add like to post', async () => {
     const mockPostData = {
-      whoLiked: ['userId'],
+      whoLiked: [''],
     };
     const userId = 'userId';
     const mockGetDoc = {
       exists: true,
       data: jest.fn(() => mockPostData),
     };
+    getDoc.mockResolvedValue(mockGetDoc);
     const postId = 'postId';
     const result = await likePost(postId, userId);
-    getDoc.mockReturnValueOnce(mockGetDoc);
     expect(getDoc).toHaveBeenCalledWith(doc(db, 'posts', postId));
     expect(result).toBe('add like');
   });

@@ -118,7 +118,7 @@ export default () => {
           }
           likesCounter.innerText = currentLikes;
         } catch (error) {
-          console.error('Error ao dar like:', error);
+          console.error('Erro ao dar like:', error);
         }
       });
     });
